@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+# Large connectome data & training artifacts
+*.csv.gz
+*.pt
+*.pth
+sinek_from_scratch/checkpoints/
+sinek_from_scratch/logs/
